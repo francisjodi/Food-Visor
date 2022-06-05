@@ -1,0 +1,463 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD3A5EB82812953D00E6AA48 /* FoodVisorAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD3A5EB72812953D00E6AA48 /* FoodVisorAppDelegate.swift */; };
+		DD3A5EE82814B0D300E6AA48 /* FoodVisorService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD3A5EE72814B0D300E6AA48 /* FoodVisorService.swift */; };
+		DD3A5EEB2814B2A500E6AA48 /* FoodVisorUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD3A5EEA2814B2A500E6AA48 /* FoodVisorUser.swift */; };
+		DD3A5EEF2814B5AE00E6AA48 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DD3A5EEE2814B5AE00E6AA48 /* GoogleService-Info.plist */; };
+		DDB309132811436500E2AFE8 /* FoodVisorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB309122811436500E2AFE8 /* FoodVisorApp.swift */; };
+		DDB309152811436500E2AFE8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB309142811436500E2AFE8 /* ContentView.swift */; };
+		DDB309172811436900E2AFE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDB309162811436900E2AFE8 /* Assets.xcassets */; };
+		DDB3091A2811436900E2AFE8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDB309192811436900E2AFE8 /* Preview Assets.xcassets */; };
+		DDB309242811447100E2AFE8 /* SignInOrSignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB309232811447100E2AFE8 /* SignInOrSignUp.swift */; };
+		DDB30926281145C000E2AFE8 /* SignUpButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB30925281145C000E2AFE8 /* SignUpButton.swift */; };
+		DDB309282811475200E2AFE8 /* SignInButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB309272811475200E2AFE8 /* SignInButton.swift */; };
+		DDB3092A2811489600E2AFE8 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB309292811489600E2AFE8 /* SignUpView.swift */; };
+		DDB3092C28114B9600E2AFE8 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB3092B28114B9600E2AFE8 /* SignInView.swift */; };
+		DDB3092E2811511700E2AFE8 /* AddUserPicture.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB3092D2811511700E2AFE8 /* AddUserPicture.swift */; };
+		DDB309312811517200E2AFE8 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB309302811517200E2AFE8 /* ImagePicker.swift */; };
+		DDB309342811577B00E2AFE8 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = DDB309332811577B00E2AFE8 /* FirebaseAuth */; };
+		DDB309362811577B00E2AFE8 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = DDB309352811577B00E2AFE8 /* FirebaseFirestore */; };
+		DDB309382811577B00E2AFE8 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = DDB309372811577B00E2AFE8 /* FirebaseStorage */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DD3A5EB72812953D00E6AA48 /* FoodVisorAppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodVisorAppDelegate.swift; sourceTree = "<group>"; };
+		DD3A5EE72814B0D300E6AA48 /* FoodVisorService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodVisorService.swift; sourceTree = "<group>"; };
+		DD3A5EEA2814B2A500E6AA48 /* FoodVisorUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodVisorUser.swift; sourceTree = "<group>"; };
+		DD3A5EEE2814B5AE00E6AA48 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DDB3090F2811436500E2AFE8 /* FoodVisor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodVisor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDB309122811436500E2AFE8 /* FoodVisorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodVisorApp.swift; sourceTree = "<group>"; };
+		DDB309142811436500E2AFE8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DDB309162811436900E2AFE8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DDB309192811436900E2AFE8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DDB309232811447100E2AFE8 /* SignInOrSignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInOrSignUp.swift; sourceTree = "<group>"; };
+		DDB30925281145C000E2AFE8 /* SignUpButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpButton.swift; sourceTree = "<group>"; };
+		DDB309272811475200E2AFE8 /* SignInButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInButton.swift; sourceTree = "<group>"; };
+		DDB309292811489600E2AFE8 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		DDB3092B28114B9600E2AFE8 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		DDB3092D2811511700E2AFE8 /* AddUserPicture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddUserPicture.swift; sourceTree = "<group>"; };
+		DDB309302811517200E2AFE8 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDB3090C2811436500E2AFE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDB309342811577B00E2AFE8 /* FirebaseAuth in Frameworks */,
+				DDB309362811577B00E2AFE8 /* FirebaseFirestore in Frameworks */,
+				DDB309382811577B00E2AFE8 /* FirebaseStorage in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD3A5EB62812951400E6AA48 /* FireBase */ = {
+			isa = PBXGroup;
+			children = (
+				DD3A5EB72812953D00E6AA48 /* FoodVisorAppDelegate.swift */,
+				DD3A5EE72814B0D300E6AA48 /* FoodVisorService.swift */,
+			);
+			path = FireBase;
+			sourceTree = "<group>";
+		};
+		DD3A5EE92814B28C00E6AA48 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DD3A5EEA2814B2A500E6AA48 /* FoodVisorUser.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DDB309062811436500E2AFE8 = {
+			isa = PBXGroup;
+			children = (
+				DD3A5EEE2814B5AE00E6AA48 /* GoogleService-Info.plist */,
+				DD3A5EE92814B28C00E6AA48 /* Model */,
+				DD3A5EB62812951400E6AA48 /* FireBase */,
+				DDB3092F2811515B00E2AFE8 /* Helpers */,
+				DDB309222811444D00E2AFE8 /* SignIn-SignUp */,
+				DDB309112811436500E2AFE8 /* FoodVisor */,
+				DDB309102811436500E2AFE8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DDB309102811436500E2AFE8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDB3090F2811436500E2AFE8 /* FoodVisor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDB309112811436500E2AFE8 /* FoodVisor */ = {
+			isa = PBXGroup;
+			children = (
+				DDB309122811436500E2AFE8 /* FoodVisorApp.swift */,
+				DDB309142811436500E2AFE8 /* ContentView.swift */,
+				DDB309162811436900E2AFE8 /* Assets.xcassets */,
+				DDB309182811436900E2AFE8 /* Preview Content */,
+			);
+			path = FoodVisor;
+			sourceTree = "<group>";
+		};
+		DDB309182811436900E2AFE8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DDB309192811436900E2AFE8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DDB309222811444D00E2AFE8 /* SignIn-SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				DDB309232811447100E2AFE8 /* SignInOrSignUp.swift */,
+				DDB3092D2811511700E2AFE8 /* AddUserPicture.swift */,
+				DDB309292811489600E2AFE8 /* SignUpView.swift */,
+				DDB3092B28114B9600E2AFE8 /* SignInView.swift */,
+				DDB30925281145C000E2AFE8 /* SignUpButton.swift */,
+				DDB309272811475200E2AFE8 /* SignInButton.swift */,
+			);
+			path = "SignIn-SignUp";
+			sourceTree = "<group>";
+		};
+		DDB3092F2811515B00E2AFE8 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				DDB309302811517200E2AFE8 /* ImagePicker.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DDB3090E2811436500E2AFE8 /* FoodVisor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDB3091D2811436900E2AFE8 /* Build configuration list for PBXNativeTarget "FoodVisor" */;
+			buildPhases = (
+				DDB3090B2811436500E2AFE8 /* Sources */,
+				DDB3090C2811436500E2AFE8 /* Frameworks */,
+				DDB3090D2811436500E2AFE8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FoodVisor;
+			packageProductDependencies = (
+				DDB309332811577B00E2AFE8 /* FirebaseAuth */,
+				DDB309352811577B00E2AFE8 /* FirebaseFirestore */,
+				DDB309372811577B00E2AFE8 /* FirebaseStorage */,
+			);
+			productName = FoodVisor;
+			productReference = DDB3090F2811436500E2AFE8 /* FoodVisor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDB309072811436500E2AFE8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					DDB3090E2811436500E2AFE8 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+				};
+			};
+			buildConfigurationList = DDB3090A2811436500E2AFE8 /* Build configuration list for PBXProject "FoodVisor" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DDB309062811436500E2AFE8;
+			packageReferences = (
+				DDB309322811577B00E2AFE8 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = DDB309102811436500E2AFE8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDB3090E2811436500E2AFE8 /* FoodVisor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDB3090D2811436500E2AFE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDB3091A2811436900E2AFE8 /* Preview Assets.xcassets in Resources */,
+				DDB309172811436900E2AFE8 /* Assets.xcassets in Resources */,
+				DD3A5EEF2814B5AE00E6AA48 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDB3090B2811436500E2AFE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDB309282811475200E2AFE8 /* SignInButton.swift in Sources */,
+				DDB3092C28114B9600E2AFE8 /* SignInView.swift in Sources */,
+				DDB309152811436500E2AFE8 /* ContentView.swift in Sources */,
+				DDB309312811517200E2AFE8 /* ImagePicker.swift in Sources */,
+				DD3A5EEB2814B2A500E6AA48 /* FoodVisorUser.swift in Sources */,
+				DDB3092E2811511700E2AFE8 /* AddUserPicture.swift in Sources */,
+				DD3A5EE82814B0D300E6AA48 /* FoodVisorService.swift in Sources */,
+				DDB309242811447100E2AFE8 /* SignInOrSignUp.swift in Sources */,
+				DD3A5EB82812953D00E6AA48 /* FoodVisorAppDelegate.swift in Sources */,
+				DDB309132811436500E2AFE8 /* FoodVisorApp.swift in Sources */,
+				DDB3092A2811489600E2AFE8 /* SignUpView.swift in Sources */,
+				DDB30926281145C000E2AFE8 /* SignUpButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DDB3091B2811436900E2AFE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DDB3091C2811436900E2AFE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DDB3091E2811436900E2AFE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FoodVisor/Preview Content\"";
+				DEVELOPMENT_TEAM = 2GMLUVPX9N;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = betram.FoodVisor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DDB3091F2811436900E2AFE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FoodVisor/Preview Content\"";
+				DEVELOPMENT_TEAM = 2GMLUVPX9N;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = betram.FoodVisor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDB3090A2811436500E2AFE8 /* Build configuration list for PBXProject "FoodVisor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDB3091B2811436900E2AFE8 /* Debug */,
+				DDB3091C2811436900E2AFE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDB3091D2811436900E2AFE8 /* Build configuration list for PBXNativeTarget "FoodVisor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDB3091E2811436900E2AFE8 /* Debug */,
+				DDB3091F2811436900E2AFE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DDB309322811577B00E2AFE8 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DDB309332811577B00E2AFE8 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DDB309322811577B00E2AFE8 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		DDB309352811577B00E2AFE8 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DDB309322811577B00E2AFE8 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		DDB309372811577B00E2AFE8 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DDB309322811577B00E2AFE8 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = DDB309072811436500E2AFE8 /* Project object */;
+}
