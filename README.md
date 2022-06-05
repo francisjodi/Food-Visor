@@ -3,7 +3,9 @@
 
 ******************************
 App Name: FoodVisor
+
 Authors: Jodi-Ann Francis, Nara U Dewo, Izabela Aranda-Dooley, Betram Lalusha
+
 Year: 2022
 ******************************
 
